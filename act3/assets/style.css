@@ -1,0 +1,139 @@
+
+/* GENERAL */
+body {
+    background-color: #e397f0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* PAGE TITLE */
+h1 {
+    color: #1e3a8a;
+    letter-spacing: -1px;
+}
+
+.text-center p {
+    font-size: 16px;
+}
+
+/* MENU CARD */
+.menu-card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+    transition: 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* CARD HEADER */
+.card-header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-number {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+/* CARD BODY */
+.card-body {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOD IMAGE */
+.menu-item {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ITEM TITLE */
+.item-title {
+    color: #1e3a8a;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* RATING */
+.rating {
+    color: #f5a623;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* DESCRIPTION */
+.description {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 12px;
+}
+
+/* INGREDIENTS */
+.section-title {
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.ingredients {
+    padding-left: 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+/* PRICE */
+.price {
+    color: #1e3a8a;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* BUTTON */
+.add-btn {
+    background-color: #1e3a8a;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background-color: #f5a623;
+    color: white;
+    transform: scale(1.04);
+}
+
+/* RESPONSIVE */
+@media (max-width: 576px) {
+    main.container {
+        padding-top: 30px !important;
+    }
+
+    .menu-item {
+        height: 190px;
+    }
+}
